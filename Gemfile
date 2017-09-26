@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass'
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
