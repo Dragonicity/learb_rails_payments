@@ -1,4 +1,4 @@
-#default: &default
+default: &default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
@@ -15,6 +15,6 @@ test:
 
 production:
   <<: *default
-  database: dlearn_rails_payments_production
+  database: learn_rails_payments_production
   username: learn_rails_payments
   password: <%= ENV['LEARN_RAILS_PAYMENTS_DATABASE_PASSWORD'] %>
